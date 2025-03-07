@@ -1,0 +1,86 @@
+# Виртуальное окружение Python
+venv/
+env/
+ENV/
+.env
+
+# Кэш Python и байткод
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Файлы настроек и конфигурации
+.env
+.env.local
+config.local.py
+settings.local.py
+
+# Файлы базы данных
+*.db
+*.sqlite
+*.sqlite3
+*.sql
+*.dump
+
+# Логи
+logs/
+*.log
+log.txt
+
+# Директории и файлы IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Временные файлы
+temp/
+tmp/
+.tmp/
+.temp/
+*.tmp
+
+# Файлы медиа (изображения, аудио и т.д.), если они хранятся локально
+media/
+uploads/
+download/
+static/user_files/
+
+# Файлы сертификатов и ключей
+*.pem
+*.key
+*.crt
+
+# Специфичные для Telegram бота
+token.txt
+telegram_api.json
+
+# Файлы резервных копий PostgreSQL
+*.backup
+*.dump
+*.sql.gz
+
+# Если у вас есть файлы с чувствительными данными админов
+admin_data.json
+admins.json
+
+# Миграции, построенные кэши и компилированные файлы
+migrations/versions/*
+*.so
+dist/
+build/
+*.egg-info/
+
+# Файлы с учетными данными
+credentials.json
+service_account.json 
+
+.cursorignore
+create_tables.py
+development_plan.md
+README123.md
